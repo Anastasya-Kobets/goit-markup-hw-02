@@ -4,6 +4,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Портфолио</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&amp;family=Roboto:wght@400;500;700;900&amp;display=swap" rel="stylesheet">
 </head>
@@ -11,23 +12,24 @@
 <!--шапка -->
 <header>
     <nav>
-        <a href="#" lang="en"><span>Web</span>Studio</a>
-        <ul>
+        <a href="#" lang="en" class="logo"><span class="web-logo">Web</span><span class="studio-logo">Studio</span></a>
+        <ul class="nav-header">
+
             <li>
-                <a href="./index.html">Студия</a>
+                <a href="./index.html" class="nav-studio">Студия</a>
             </li>
             <li>
-                <a href="">Портфолио</a>
+                <a href="" class="nav-studio current">Портфолио</a>
             </li>
             <li>
-                <a href="">Контакты</a>
+                <a href="" class="nav-studio">Контакты</a>
             </li>
         </ul>
     </nav>
     <!-- контакты -->
-    <ul>
-        <li> <a href="mailto:info@devstudio.com"> info@devstudio.com</a></li>
-        <li> <a href="tel:+38 096 111 11 11"> +38 096 111 11 11</a> </li>
+    <ul class="nav-header">
+        <li> <a href="mailto:info@devstudio.com" class="nav-studio contacts"> info@devstudio.com</a></li>
+        <li> <a href="tel:+38 096 111 11 11" class="nav-studio contacts"> +38 096 111 11 11</a> </li>
     </ul>
 
 </header>
@@ -36,19 +38,19 @@
     <section>
         <ul>
             <li>
-                <button type="button">Все</button>
+                <button type="button" class="buttons">Все</button>
             </li>
             <li>
-                <button type="button">Веб-сайты</button>
+                <button type="button" class="buttons">Веб-сайты</button>
             </li>
             <li>
-                <button type="button">Приложения</button>
+                <button type="button" class="buttons">Приложения</button>
             </li>
             <li>
-                <button type="button">Дизайн</button>
+                <button type="button" class="buttons">Дизайн</button>
             </li>
             <li>
-                <button type="button">Маркетинг</button>
+                <button type="button" class="buttons">Маркетинг</button>
             </li>
         </ul>
     </section>
