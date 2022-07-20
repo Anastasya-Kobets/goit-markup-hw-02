@@ -26,11 +26,10 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-}
-
-.web-logo {
   color: var(--accent-color);
 }
+
+
 
 .nav-header a {
   font-weight: 500;
@@ -151,6 +150,10 @@ ul {
   color: var(--light-color);
 }
 
+.studio-logo-header {
+  color: var(--header-color);
+
+}
 .studio-logo-footer {
   color: var(--light-color);
 }
