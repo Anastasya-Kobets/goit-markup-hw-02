@@ -4,6 +4,7 @@
   --accent-color: #2196f3;
   --light-color: #ffffff;
   --fon-color: #2f303a;
+  --team-color: #F5F4FA;
 
 }
 
@@ -113,6 +114,9 @@ li {
   line-height: 1.16;
   letter-spacing: 0.03em;
 }
+.team-section {
+  background-color: var(--team-color) ;
+}
 
 .team {
   background: var(--light-color);
@@ -130,20 +134,23 @@ li {
 
 .team-profession {
   font-weight: 400;
-  font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
 
 .contact-footer {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
+.gps {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--light-color);
+}
 .footer-box {
   background-color: var(--fon-color);
 }
@@ -169,7 +176,6 @@ li {
 }
 
 .services-portfolio {
-  font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--text-color);
@@ -178,6 +184,7 @@ li {
   box-sizing: border-box;
   background: var(--light-color);
   border: 1px solid #eeeeee;
+
 }
 .adresses {
   font-style: normal;
