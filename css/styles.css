@@ -1,8 +1,8 @@
 :root {
-    --header-color: #212121;
-    --text-color: #757575;
-    --accent-color: #2196F3;
-    --light-color: #FFFFFF;
+  --header-color: #212121;
+  --text-color: #757575;
+  --accent-color: #2196f3;
+  --light-color: #ffffff;
 }
 
 body {
@@ -11,167 +11,165 @@ body {
   color: var(--header-color);
   background-color: #f5f4fa;
 }
-/*/Cтудия*/
+/* Cтудия */
 a {
-    text-decoration: none;
-    color: var(--header-color);
+  text-decoration: none;
+  color: var(--header-color);
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 .logo {
-    font-family: 'Raleway', sans-serif ;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
 }
 
 .web-logo {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .nav-header a {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
 .nav-header .nav-studio:hover {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .nav-header .nav-studio:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .current {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .contacts {
-    color: #757575;
+  color: var(--text-color);
 }
 
 .buttons:hover,
-.buttons:focus{
-    background-color: var(--accent-color);
-    color: var(--light-color);
+.buttons:focus {
+  background-color: var(--accent-color);
+  color: var(--light-color);
 }
 
 .buttons {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .studio {
-    background: #2196F3;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
+  background: var(--accent-color);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
-
-
 .main-text {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .peculiarities {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .peculiarities-text {
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: var(--text-color);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
 }
 
 .title-text {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
 }
 
 .team {
-    background: var(--light-color);
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14), 0 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0 0 4px 4px;
+  background: var(--light-color);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14),
+    0 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 4px 4px;
 }
 
 .team-name {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
 }
 
 .team-profession {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.03em;
-    color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
 }
 
 .contact-footer {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-box {
-    background-color: #2F303A;
+  background-color: #2f303a;
 }
 
 .contact-footer:hover,
-.contact-footer:focus{
-    color: var(--light-color);
+.contact-footer:focus {
+  color: var(--light-color);
 }
 
 .studio-logo-footer {
-    color: var(--light-color);
+  color: var(--light-color);
 }
 /*/Портфолио*/
 .header-portfolio {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 36px;
-    letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
 }
 
 .services-portfolio {
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.03em;
-    color: var(--text-color);
-
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
 }
 .box {
-    box-sizing: border-box;
-    background: var(--light-color);
-    border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+  background: var(--light-color);
+  border: 1px solid #eeeeee;
 }
