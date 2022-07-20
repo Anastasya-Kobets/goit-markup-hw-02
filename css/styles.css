@@ -3,6 +3,7 @@
   --text-color: #757575;
   --accent-color: #2196f3;
   --light-color: #ffffff;
+  --fon-color: #2f303a;
 
 }
 
@@ -32,7 +33,7 @@ li {
 
 
 
-.nav-header a {
+.nav-header {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -54,6 +55,9 @@ li {
 .contacts {
   color: var(--text-color);
 }
+.hero {
+  background-color: var(--fon-color);
+}
 
 .buttons:hover,
 .buttons:focus {
@@ -69,16 +73,13 @@ li {
   background: var(--accent-color);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  color: var(--light-color);
 }
 
 .main-text {
@@ -88,6 +89,7 @@ li {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  color: var(--light-color);
 }
 
 .peculiarities {
@@ -143,7 +145,7 @@ li {
 }
 
 .footer-box {
-  background-color: #2f303a;
+  background-color: var(--fon-color);
 }
 
 .contact-footer:hover,
