@@ -5,11 +5,11 @@
     --light-color: #FFFFFF;
 }
 
-body{
-    font-family:"Roboto Light", "Roboto Thin", sans-serif;
-    font-style: normal;
-    color: var(--header-color);
-    background-color: #F5F4FA;
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  color: var(--header-color);
+  background-color: #f5f4fa;
 }
 /*/Cтудия*/
 a {
