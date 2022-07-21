@@ -202,3 +202,7 @@ li {
 .adresses {
   font-style: normal;
 }
+.all-buttons{
+  background-color: var(--accent-color);
+  color: var(--light-color);
+}
